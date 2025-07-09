@@ -1,0 +1,11 @@
+name: disease-env
+channels:
+  - defaults
+dependencies:
+  - python=3.13.2
+  - pandas
+  - numpy
+  - scikit-learn
+  - jupyterlab
+  - matplotlib
+  - seaborn
