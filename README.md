@@ -11,7 +11,7 @@ The goal of this project is to assess the predicitive capability of **common SNP
 - **Type 2 Diabetes**
 - **Hyperthyroidism**
 
-## Project Structure
+## 📁 Project Structure
 
 ```
 Internship_Project/
@@ -159,8 +159,8 @@ Internship_Project/
 
 - **Evaluation**:
   - ROC AUC range for SNP-only models *(50/50 split)*:
-    - RA: ~0.56
-    - ALZ: ~0.65
+    - RA: ~0.55
+    - ALZ: ~0.60
     - T2D: ~ 0.53
     - HYP: ~0.53
   - ROC AUC range for SNP-only models *(10/90 split)*:
@@ -169,13 +169,13 @@ Internship_Project/
     - T2D: ~ 0.62
     - HYP: ~0.52
 
-## Tools and Libraries
+## ⚒️ Tools and Libraries
 
 - Python (pandas, scikit-learn, matplotlib, numpy)
 - bcftools
 - Jupyter Notebook
 
-## Linked Resources
+## 🔗 Linked Resources
 
 - [1000 Genomes Project](https://www.internationalgenome.org/)
 - [GWAS Catalog](https://www.ebi.ac.uk/gwas/)
@@ -184,4 +184,4 @@ Internship_Project/
 ## 🙌 Acknowledgments
 
 - This project was completed under the guidance of **Prof. M.K. Bhuyan**, Department of EEE, **IIT Guwahati**.
-- Thanks to [your teammate’s name here] for collaborating on model development and experiments.
+- Thanks to [Pragyan Thapa](https://github.com/pragyanthapa) for collaborating on model development and experiments.
