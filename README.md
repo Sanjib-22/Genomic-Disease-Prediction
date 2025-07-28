@@ -169,7 +169,7 @@ Internship_Project/
 
 ## ⚒️ Tools and Libraries
 
-- Python (pandas, scikit-learn, matplotlib, numpy)
+- Python (pandas, scikit-learn, seaborn, matplotlib, numpy)
 - bcftools
 - Jupyter Notebook
 
