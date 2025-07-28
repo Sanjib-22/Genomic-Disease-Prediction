@@ -121,8 +121,6 @@ Internship_Project/
 ├─ .gitignore
 ├─ environment.yaml
 ├─ LICENSE
-├─ output.md
-├─ output.txt
 └─ README.md
 ```
 
