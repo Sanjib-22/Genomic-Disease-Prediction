@@ -3,7 +3,7 @@
 The project mainly focuses on evaluating machine learning models and predicting specific genetically inherited diseases using **Polygenic Risk Scores (PRS)**, leveraging Genomic data and machine learning techniques.
 The work was carried out as a part of an internship at **IIT Guwahati** .
 
-## 🔬 Project Overview
+## Project Overview
 
 The goal of this project is to assess the predicitive capability of **common SNPs (Single Nucleotide Polymorphism)** using PRS, applied across multiple diseases:
 - **Rheumatoid Arthritis**
@@ -11,7 +11,7 @@ The goal of this project is to assess the predicitive capability of **common SNP
 - **Type 2 Diabetes**
 - **Hyperthyroidism**
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 Internship_Project/
@@ -124,7 +124,7 @@ Internship_Project/
 └─ README.md
 ```
 
-## 🧬 Datasets Used
+## Datasets Used
 
 - **1000 Genomes Project** (genotype data)
 - Phenotype labels were **simulated** to follow disease-specific prevalance are used for binary classificaton.
@@ -132,7 +132,7 @@ Internship_Project/
   - **50/50 Case-Control**
   - **10/90 Case-Control** *(produced more realistic and better-performing results)*
 
-## 🧠 Methodology
+## Methodology
 
 - **Dataset Collection**:
   - Used **GWAS Catalog** for SNP collection for the four diseases and **1000 Genomes Project** for chromosomes related to each particular trait
@@ -167,19 +167,19 @@ Internship_Project/
     - T2D: ~ 0.62
     - HYP: ~0.52
 
-## ⚒️ Tools and Libraries
+## Tools and Libraries
 
 - Python (pandas, scikit-learn, seaborn, matplotlib, numpy)
 - bcftools
 - Jupyter Notebook
 
-## 🔗 Linked Resources
+## Linked Resources
 
 - [1000 Genomes Project](https://www.internationalgenome.org/)
 - [GWAS Catalog](https://www.ebi.ac.uk/gwas/)
 - [bcftools](https://github.com/samtools/bcftools)
 
-## 🙌 Acknowledgments
+## Acknowledgments
 
 - This project was completed under the guidance of **Prof. M.K. Bhuyan**, Department of EEE, **IIT Guwahati**.
 - Thanks to [Pragyan Thapa](https://github.com/pragyanthapa) for collaborating on model development and experiments.
