@@ -17,21 +17,9 @@ The goal of this project is to assess the predicitive capability of **common SNP
 Internship_Project/
 ├─ Final Datasets/
 │  ├─ ALZ_final/
-│  │  ├─ ALZ_aligned_genotypes_final.csv
-│  │  ├─ ALZ_aligned_phenotypes_final_extended.csv
-│  │  └─ ALZ_aligned_phenotypes_final.csv
 │  ├─ HYP_final/
-│  │  ├─ HYP_aligned_genotypes_final.csv
-│  │  ├─ HYP_aligned_phenotypes_final_extended.csv
-│  │  └─ HYP_aligned_phenotypes_final.csv
 │  ├─ RA_final/
-│  │  ├─ RA_aligned_genotypes_final.csv
-│  │  ├─ RA_aligned_phenotypes_final_extended.csv
-│  │  └─ RA_aligned_phenotypes_final.csv
 │  └─ T2D_final/
-│     ├─ T2D_aligned_genotypes_final.csv
-│     ├─ T2D_aligned_phenotypes_final_extended.csv
-│     └─ T2D_aligned_phenotypes_final.csv
 ├─ Models/
 │  ├─ Alzheimers.ipynb
 │  ├─ Hyperthyroidism.ipynb
@@ -39,81 +27,11 @@ Internship_Project/
 │  └─ Type_2_diabetes.ipynb
 ├─ Outputs/
 │  ├─ ALZ_results/
-│  │  ├─ ALZ_confusion_matrix.png
-│  │  ├─ ALZ_PRS_distribution_fixed.png
-│  │  ├─ ALZ_prs_scores.csv
-│  │  ├─ ALZ_selectKbest_logreg_model_AgeSex.joblib
-│  │  ├─ ALZ_selectKbest_logreg_model.joblib
-│  │  ├─ ALZ_selectKbest_model_performance_AgeSex.png
-│  │  ├─ ALZ_selectKbest_model_performance.png
-│  │  ├─ logreg_selectKbest_coefficients_AgeSex.csv
-│  │  └─ logreg_selectKbest_coefficients.csv
 │  ├─ HYP_results/
-│  │  ├─ HYP_confusion_matrix.png
-│  │  ├─ HYP_PRS_distribution_fixed.png
-│  │  ├─ HYP_prs_scores.csv
-│  │  ├─ HYP_selectKbest_logreg_model_AgeSex.joblib
-│  │  ├─ HYP_selectKbest_logreg_model.joblib
-│  │  ├─ HYP_selectKbest_model_performance_AgeSex.png
-│  │  ├─ HYP_selectKbest_model_performance.png
-│  │  ├─ logreg_selectKbest_coefficients_AgeSex.csv
-│  │  └─ logreg_selectKbest_coefficients.csv
 │  ├─ RA_results/
-│  │  ├─ logreg_selectKbest_coefficients_AgeSex.csv
-│  │  ├─ logreg_selectKbest_coefficients.csv
-│  │  ├─ RA_confusion_matrix.png
-│  │  ├─ RA_PRS_distribution_fixed.png
-│  │  ├─ RA_prs_scores.csv
-│  │  ├─ RA_selectKbest_logreg_model_AgeSex.joblib
-│  │  ├─ RA_selectKbest_logreg_model.joblib
-│  │  ├─ RA_selectKbest_model_performance_ageSex.png
-│  │  └─ RA_selectKbest_model_performance.png
 │  ├─ T2D_results/
-│  │  ├─ logreg_selectKbest_coefficients_AgeSex.csv
-│  │  ├─ logreg_selectKbest_coefficients.csv
-│  │  ├─ T2D_confusion_matrix.png
-│  │  ├─ T2D_PRS_distribution_fixed.png
-│  │  ├─ T2D_prs_scores.csv
-│  │  ├─ T2D_selectKbest_logreg_model_AgeSex.joblib
-│  │  ├─ T2D_selectKbest_logreg_model.joblib
-│  │  ├─ T2D_selectKbest_model_performance_AgeSex.png
-│  │  └─ T2D_selectKbest_model_performance.png
 │  └─ Table.ipynb
-├─ Raw_Datasets/
-│  ├─ ALZ_data/
-│  │  ├─ ALZ_chr_dosage_matrix.csv
-│  │  ├─ ALZ_chr_genotypes_raw.txt
-│  │  ├─ ALZ_chr_genotypes_with_header.tsv
-│  │  ├─ ALZ_top2000_cleaned.csv
-│  │  ├─ phenotype_ALZ_aligned.csv
-│  │  ├─ phenotype_ALZ_simulated_50_50.tsv
-│  │  └─ sample_ids(1).txt
-│  ├─ HYP_data/
-│  │  ├─ HYP_chr_dosage_matrix.csv
-│  │  ├─ HYP_chr_genotypes_raw.txt
-│  │  ├─ HYP_chr_genotypes_with_header.tsv
-│  │  ├─ HyperTH_top2000_cleaned.csv
-│  │  ├─ phenotype_HYP_aligned.csv
-│  │  ├─ phenotype_HYP_simulated_50_50.tsv
-│  │  └─ sample_ids(3).txt
-│  ├─ RA_data/
-│  │  ├─ phenotype_RA_aligned.csv
-│  │  ├─ phenotype_RA_simulated_50_50.tsv
-│  │  ├─ RA_aligned_genotypes_final.csv
-│  │  ├─ RA_aligned_phenotypes_final.csv
-│  │  ├─ RA_chr1_6_dosage_matrix.csv
-│  │  ├─ RA_chr1_6_genotypes_raw.txt
-│  │  ├─ RA_chr1_6_genotypes_with_header.tsv
-│  │  ├─ RA_top10000_cleaned.csv
-│  │  └─ sample_ids.txt
-│  ├─ T2D_data/
-│  │  ├─ phenotype_T2D_aligned.csv
-│  │  ├─ phenotype_T2D_simulated_50_50.tsv
-│  │  ├─ sample_ids(2).txt
-│  │  ├─ T2D_chr_dosage_matrix.csv
-│  │  ├─ T2D_chr_genotypes_raw.txt
-│  │  ├─ T2D_chr_genotypes_with_header.tsv
-│  │  └─ T2D_top2000_cleaned.csv
+├─ Dataset_preprocessing/  
 │  ├─ Dataset_processing_ALZ.ipynb
 │  ├─ Dataset_processing_HYP.ipynb
 │  ├─ Dataset_processing_RA.ipynb
