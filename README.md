@@ -14,32 +14,48 @@ The goal of this project is to assess the predicitive capability of **common SNP
 ## Project Structure
 
 ```
-Internship_Project/
-├─ Final Datasets/
-│  ├─ ALZ_final/
-│  ├─ HYP_final/
-│  ├─ RA_final/
-│  └─ T2D_final/
-├─ Models/
-│  ├─ Alzheimers.ipynb
-│  ├─ Hyperthyroidism.ipynb
-│  ├─ Rheumatoid_Arhtiritis.ipynb
-│  └─ Type_2_diabetes.ipynb
-├─ Outputs/
-│  ├─ ALZ_results/
-│  ├─ HYP_results/
-│  ├─ RA_results/
-│  ├─ T2D_results/
-│  └─ Table.ipynb
-├─ Dataset_preprocessing/  
-│  ├─ Dataset_processing_ALZ.ipynb
-│  ├─ Dataset_processing_HYP.ipynb
-│  ├─ Dataset_processing_RA.ipynb
-│  └─ Dataset_processing_T2D.ipynb
-├─ .gitignore
-├─ environment.yaml
-├─ LICENSE
-└─ README.md
+Genomic-Disease-Prediction/
+├── Final Datasets/
+│   ├── ALZ_final/
+│   │   ├── ALZ_aligned_genotypes_final.csv
+│   │   ├── ALZ_aligned_phenotypes_final.csv
+│   │   └── ALZ_aligned_phenotypes_final_extended.csv
+│   ├── HYP_final/
+│   │   ├── HYP_aligned_genotypes_final.csv
+│   │   ├── HYP_aligned_phenotypes_final.csv
+│   │   └── HYP_aligned_phenotypes_final_extended.csv
+│   ├── RA_final/
+│   │   ├── RA_aligned_genotypes_final.csv
+│   │   ├── RA_aligned_phenotypes_final.csv
+│   │   └── RA_aligned_phenotypes_final_extended.csv
+│   └── T2D_final/
+│       ├── T2D_aligned_genotypes_final.csv
+│       ├── T2D_aligned_phenotypes_final.csv
+│       └── T2D_aligned_phenotypes_final_extended.csv
+├── Models/
+│   ├── Alzheimers.ipynb
+│   ├── Hyperthyroidism.ipynb
+│   ├── Rheumatoid_Arhtiritis.ipynb
+│   └── Type_2_diabetes.ipynb
+├── Outputs/
+│   ├── ALZ_results/
+│   ├── HYP_results/
+│   ├── RA_results/
+│   ├── T2D_results/
+│   └── Table.ipynb
+├── Raw_Datasets/
+│   ├── ALZ_data/
+│   ├── HYP_data/
+│   ├── RA_data/
+│   ├── T2D_data/
+│   ├── Dataset_processing_ALZ.ipynb
+│   ├── Dataset_processing_HYP.ipynb
+│   ├── Dataset_processing_RA.ipynb
+│   └── Dataset_processing_T2D.ipynb
+├── .gitignore
+├── environment.yaml
+├── LICENSE
+└── README.md
 ```
 
 ## Datasets Used
